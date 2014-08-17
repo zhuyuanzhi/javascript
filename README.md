@@ -5,7 +5,7 @@ javascript
 
   最近给公司做javascript相关的培训。
   
-  顺便整理一下 javascript 学习的相关进阶方法。分享给需要的朋友。
+  顺便回顾一下自己学习 javascript 的相关方法和技巧。分享给需要的朋友。
   
   
     |- base       基础
@@ -18,3 +18,5 @@ javascript
   
   
   学以致用、用以促学了。
+  
+  准备好chrome浏览器、webstorm开发工具。一起进入javascript的世界吧。
