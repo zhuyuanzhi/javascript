@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>数据类型</title>
+</head>
+<body>
+
+    数据类型：String、Number、Object、Boolean、undefined
+    <script type="text/javascript">
+        function log(out){ console.log(out);  }
+        function type(obj){ log(typeof obj); }
+
+        type("");               //string
+        type("zjj");            //string
+        type(228);              //number
+        type({});               //object
+        type([]);               //object
+        type(undefined);        //undefined
+
+        //两个特殊特殊
+        type(null);             //object
+        type(function(){});     //function
+    </script>
+
+</body>
+</html>
