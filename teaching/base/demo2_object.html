@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+    内置对象：Object  =====>  String、Array、Boolean、Number、Date、RegExp、Math、Error、Function、Arguments
+    <script type="text/javascript">
+        function log(out){ console.log(out);  }
+        function ObjectConstructor(obj){ log(obj.constructor === Object.constructor); }
+        function test(){ log(arguments.length); }
+
+//        log(test);
+//        log({});
+//        ObjectConstructor(Array);
+//        ObjectConstructor(Boolean);
+//        ObjectConstructor(Number);
+//        ObjectConstructor(Date);
+//        ObjectConstructor(RegExp);
+//        ObjectConstructor(Error);
+//        ObjectConstructor(Function);
+//
+//        //两个特殊内置对象
+//        log(Math.constructor == Object);
+//        log(typeof Arguments == "undefined");
+//        log(Function.arguments == null)
+//        test(1,2,3,4);
+    </script>
+    <script type="text/javascript">
+        var ClassA = function(name){
+            this.name = name;
+            this.func = null;
+        };
+
+        var a = new ClassA("a");
+        var b = new ClassA("b");
+
+        b.func = bind(function(){
+            console.log("I am " + this.name);
+        }, a);
+
+        b.func();  //输出 I am a
+
+        a = null;        //释放a
+        b.func = null;   //释放b
+        b = null;
+
+        //模拟上下文绑定
+        function bind(func, self){
+            return function(){
+                return func.apply(self);
+            };
+        };
+    </script>
+
+<!--Window-->
+<!--Document-->
+<!--Froms-->
+<!--Cookie-->
+<!--Images-->
+<!--Links-->
+<!--Location-->
+<!--Navigator-->
+<!--Screen-->
+<!--Frames-->
+<!--History-->
+</body>
+</html>
