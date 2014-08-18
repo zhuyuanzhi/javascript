@@ -19,4 +19,16 @@ javascript
   
   学以致用、用以促学了。
   
-  准备好chrome浏览器、webstorm开发工具。一起进入javascript的世界吧。
+  准备工作
+    
+    1.浏览器
+        
+        Chrome、Firefox、Safari、Opera、IE
+        兼容性问题问我想一直是比较头疼的问题 我总结了一些经验后续也会给大家分享。
+  
+    2.前端开发工具
+  
+        Notepad++、IntelliJ IDEA、Dreamweaver、Aptana、Eclipse、Webstorm
+        我给大家推荐的是Webstorm。
+  
+  一起进入javascript的世界吧。
