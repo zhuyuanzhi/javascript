@@ -31,4 +31,4 @@ javascript
         Notepad++、IntelliJ IDEA、Dreamweaver、Aptana、Eclipse、Webstorm
         我给大家推荐的是Webstorm。
   
-  一起进入javascript的世界吧。 
+  一起进入javascript的世界吧。
